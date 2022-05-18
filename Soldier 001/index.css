@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* step1 landing page start here */
+.landing-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing-page h1, p, button{
+    margin: 10px;
+}
+
+.landing-page button{
+    padding: 10px;
+}
+/* landing page ends here */
+
+/* step2 Who will attack first view starts here*/
+
+.whoIsAttacking-view{
+    display: none;
+    border: 1px solid red;
+    height: 100vh;
+}
+.whoIsAttacking-view .first-attack-view{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* step 2 Who will attack first view ends here */
+
+
+/*  step 3 Game starts here*/
+.game-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
+
+.army-display{
+    border: 1px solid green;
+    height: 500px;
+    width: 400px;
+    margin: 5px;
+}
+
+.game-info{
+    border: 1px solid red;
+    height: 20%;
+    margin: 4%;
+}
+.battlefield{
+    border: 1px solid red;
+    height: 72%;
+    margin: 4%;
+
+
+}
